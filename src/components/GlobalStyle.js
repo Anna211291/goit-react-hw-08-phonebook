@@ -10,7 +10,9 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    padding: 60px;
+    /* padding: 60px; */
+    /* background:  radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% ); */
+    background: blanchedalmond;
   }
 h1,
 h2,
@@ -55,7 +57,8 @@ export const ContactsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  gap: 20px;
-  border: 2px solid #7eb101;
-  padding: 16px;
+  gap: 22px;
+  border: 4px solid #7eb101;
+  padding: 26px;
+  border-radius: 15px;
 `;

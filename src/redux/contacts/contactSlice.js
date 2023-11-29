@@ -8,16 +8,6 @@ export const contactSlice = createSlice({
     isLoading: false,
     error: null,
   },
-  // reducers: {
-  //   addContact(state, action) {
-  //     state.contactList = [...state.contactList, action.payload];
-  //   },
-  //   deleteContact(state, action) {
-  //     state.contactList = state.contactList.filter(
-  //       contact => contact.id !== action.payload
-  //     );
-  //   },
-  // },
 
   extraReducers: {
     [fetchContacts.pending](state) {
@@ -65,5 +55,4 @@ export const contactSlice = createSlice({
 
 export const getContacts = state => state.contacts;
 
-// export const { addContact, deleteContact } = contactSlice.actions;
 export const contactReducer = contactSlice.reducer;

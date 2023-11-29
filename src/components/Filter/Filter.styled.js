@@ -14,18 +14,19 @@ export const FilterLable = styled.label`
   justify-content: space-between;
   color: #7eb101;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
 `;
 export const InputdWrapper = styled.input`
   width: 100%;
-  height: 32px;
+  height: 36px;
   font-size: 16px;
   padding: 4px;
   outline: none;
-  border: 1px solid #bbf330;
+  border: 2px solid #bbf330;
   &:hover {
-    border: 2px solid #7eb101;
+    border: 3px solid #7eb101;
   }
-  border-radius: 4px;
+  border-radius: 8px;
   color: #2c2c2c;
+  background-color: transparent;
 `;

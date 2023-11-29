@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import { Field, Form, ErrorMessage } from 'formik';
 
-export const StyledForm = styled(Form)`
+export const StyledLoginForm = styled.form`
   width: 460px;
   display: flex;
   flex-direction: column;
@@ -10,19 +9,19 @@ export const StyledForm = styled(Form)`
   color: #7eb101;
   font-size: 16px;
   font-weight: 700;
-  text-decoration: underline;
   border: 4px solid #7eb101;
   padding: 26px;
   border-radius: 15px;
+  margin-top: 60px;
 `;
 
-export const StyledLable = styled.label`
+export const StyledLoginLable = styled.label`
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 8px;
 `;
-export const FieldWrapper = styled(Field)`
+export const InputLoginWrapper = styled.input`
   width: 100%;
   height: 36px;
   font-size: 20px;
@@ -35,12 +34,8 @@ export const FieldWrapper = styled(Field)`
   border-radius: 8px;
   background-color: transparent;
 `;
-export const ErrorWrapper = styled(ErrorMessage)`
-  color: red;
-  font-weight: 500;
-  font-size: 14px;
-`;
-export const AddBtn = styled.button`
+
+export const LoginBtn = styled.button`
   display: flex;
   justify-content: center;
   gap: 4px;
@@ -56,4 +51,5 @@ export const AddBtn = styled.button`
   font-weight: 700;
   font-size: 14px;
   padding: 8px;
+  margin-top: 20px;
 `;

@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 import { RiUserAddFill } from 'react-icons/ri';
 import { useDispatch, useSelector } from 'react-redux';
 import { nanoid } from 'nanoid';
-import { addContact } from 'redux/operations';
+import { addContact } from 'redux/contacts/operations';
 import {
   AddBtn,
   ErrorWrapper,
@@ -11,7 +11,6 @@ import {
   StyledForm,
   StyledLable,
 } from './ContactForm.styled';
-// import { addContact } from 'redux/contactSlice';
 
 const PhonebookValidSchema = Yup.object().shape({
   name: Yup.string()
